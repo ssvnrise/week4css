@@ -1,0 +1,82 @@
+body {
+    position: relative;
+}
+
+header {
+    background-color: linen;
+}
+
+section {
+    background-color: lightpink;
+}
+
+article {
+    background-color: lightblue;
+}
+
+aside {
+    background-color: lavender;
+    max-width: 500px;
+}
+
+div {
+    background-color: lightgoldenrodyellow;
+    max-width: 80%;
+}
+
+.colorbox {
+    /* padding: 5px; */
+    /* margin: 50px; */
+    /* display: block; */
+    max-width: 100%;
+}
+
+
+.boxy.square {
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;  /*removes the bullets from the list*/
+    margin: 0;  /* removes default margin*/
+    padding: 0; /* removes default padding*/
+}
+li {
+    display: inline;  
+    /* makes the list items sit next to each other */
+    /* float: left; */
+}
+
+li a {
+    display: block; 
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #aaa;
+}
+
+h2 {
+    color: hotpink;
+    margin: 10px 20px 0;
+}
+
+h2 {
+    text-color: hotpink;
+    margin: 10px 0 20px 20px;
+}
+
+h2 {
+    color: hotpink;
+    margin: 10px 20px 20px 0;
+}
+
+h2 {
+    color: hotpink;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
